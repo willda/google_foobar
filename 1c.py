@@ -1,10 +1,8 @@
 '''
-Write a function solution(h, q) - where h is the height 
-of the perfect tree of converters and q is a list of positive 
-integers representing different flux converters - which returns 
-a list of integers p where each element in p is the label of 
-the converter that sits on top of the respective converter in 
-q, or -1 if there is no such converter.  
+Given a minion ID as a string n representing a nonnegative 
+integer of length k in base b, where 2 <= k <= 9 and 
+2 <= b <= 10, write a function solution(n, b) which returns 
+the length of the ending cycle of the algorithm above starting with n.
 '''
 
 def to_base(n, base):

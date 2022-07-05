@@ -20,4 +20,4 @@ def solution(l, t):
                 break
             elif count == 0:
                 return(start, end)
-    return(-1)
+    return -1 

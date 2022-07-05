@@ -8,4 +8,4 @@ def solution(data, n):
     repeated_numb = list(set([x for x in data if data.count(x) > n]))
     result = [val for val in data if val not in repeated_numb]
     
-    return(result)
+    return result
